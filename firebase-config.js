@@ -42,13 +42,13 @@
    ================================================================ */
 
 const firebaseConfig = {
-  apiKey:            "THAY-BANG-API-KEY",
-  authDomain:        "TEN-PROJECT.firebaseapp.com",
-  databaseURL:       "https://TEN-PROJECT-default-rtdb.asia-southeast1.firebasedatabase.app",
-  projectId:         "TEN-PROJECT",
-  storageBucket:     "TEN-PROJECT.appspot.com",
-  messagingSenderId: "SO-SENDER-ID",
-  appId:             "APP-ID"
+  apiKey: "AIzaSyBb-MPbaInOuCp7oMjMRrUFwVyfNtq-MpY",
+  authDomain: "thanhngo-music.firebaseapp.com",
+  projectId: "thanhngo-music",
+  storageBucket: "thanhngo-music.firebasestorage.app",
+  messagingSenderId: "330285723909",
+  appId: "1:330285723909:web:5684901e95527c2f1ec76c",
+  measurementId: "G-8BKG87VM5M"
 };
 
 firebase.initializeApp(firebaseConfig);
