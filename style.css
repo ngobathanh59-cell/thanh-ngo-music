@@ -285,3 +285,13 @@ input::placeholder { color: var(--muted); }
   header { padding: 0 16px; }
   .logo { font-size: 18px; }
 }
+
+.playlist-mode-tabs { display: flex; border-bottom: 1px solid var(--border); }
+.playlist-mode-tab { flex: 1; background: none; border: none; border-bottom: 2px solid transparent; color: var(--muted); font-family: var(--font-ui); font-size: 11px; padding: 12px 8px; cursor: pointer; transition: color .15s, border-color .15s; margin-bottom: -1px; }
+.playlist-mode-tab:hover { color: var(--text); }
+.playlist-mode-tab.active { color: var(--accent); border-bottom-color: var(--accent); }
+.online-count { font-size: 10px; color: var(--muted); }
+.mode-shared { background: rgba(55,138,221,0.1); border: 1px solid rgba(55,138,221,0.3); color: #378ADD; }
+.search-result-left { position: relative; flex-shrink: 0; }
+.search-duration { position: absolute; bottom: 2px; right: 2px; background: rgba(0,0,0,0.8); color: #fff; font-size: 9px; padding: 1px 4px; border-radius: 2px; font-family: monospace; }
+.search-exists-badge { font-size: 9px; color: var(--accent); background: var(--accent-dim); padding: 1px 5px; border-radius: 3px; }
